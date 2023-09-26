@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disabled</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Graph" Version="5.28.0" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.56.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Graph.Webhook.Services\Graph.Webhook.Services.csproj" />
+  </ItemGroup>
+
+</Project>
